@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://marknoun.ae/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
