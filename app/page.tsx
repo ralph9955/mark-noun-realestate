@@ -127,7 +127,7 @@ export default function Home() {
 
       if (response.ok) {
         setSuccess(true);
-        setFormData({ name: "", email: "", phone: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", needs: [], budget: "" });
         setTimeout(() => setSuccess(false), 5000);
       } else {
         alert("Error sending message. Please try again.");
